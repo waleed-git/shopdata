@@ -8,27 +8,32 @@ app to do some data analysis for input csv file by generating 2 files written by
 
 - install node   `npm install`
 
-- compile code will require input path   `node app.js`
+- compile code   `node app.js`
 
-- Give path `input/test.csv`
+- Give input file path `input/test.csv`
 
-- it will generate 2 file like below 
+- It will generate 2 file like below 
 
 
 ```
-wel@FB-944:/mnt/d/Fawry/code/task$ node app.js
+wel@FB-944:/mnt/d/code/shopdata$ npm -v
+6.14.4
+wel@FB-944:/mnt/d/code/shopdata$ node -v
+v10.19.0
+
+wel@FB-944:/mnt/d/code/shopdata$ node app.js
 Please enter file path:input/test.csv
 File is created successfully.
 File is created successfully.
-wel@FB-944:/mnt/d/Fawry/code/task$ ls
+wel@FB-944:/mnt/d/code/shopdata$ ls
 0_test.csv  1_test.csv  app.js  input  node_modules  package-lock.json  package.json
 
 
- cat 0_test.csv
+wel@FB-944:/mnt/d/code/shopdata$ cat 0_test.csv
 shoes,2
 forks,0.75
 
- cat 1_test.csv
+wel@FB-944:/mnt/d/code/shopdata$ cat 1_test.csv
 shoes,BonPied
 forks,Pfitzcraft
 
